@@ -1,0 +1,63 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color:  #581845 !important;
+    
+}
+.nav-link{
+    color:#ff5733 !important;
+}
+
+#logo{
+    color: #DAF7A6;
+    float:left;
+    font-size: 1.7em;
+    text-decoration: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.btn{
+    background-color: #FFC300;
+    color: #ff5733;
+}
+
+.center {
+    text-align:center
+}
+
+.jumbotron {
+    background-image: asset-url('sandman.jpg');
+    background-size:cover;
+    height:550px;
+}
+
+.jumbotron h1 {
+    color: #ff5733;
+    margin-bottom: 2rem;
+    letter-spacing: -1px;;
+}
+
+.btn-xlarge{
+    font-size: 1.7em;
+}
+
+.footer {
+    margin-top: 45px;
+    padding-top:5px;
+    border-top: 1px solid black;
+    color:#ff5733 !important;
+}
+.footer a:hover {
+    color: #222;
+}
+.footer small{
+    float: left;
+}
+.footer ul {
+    float:right;
+    list-style: none;
+}
+.footer ul li {
+    float:left;
+    margin-left: 15px;
+}
